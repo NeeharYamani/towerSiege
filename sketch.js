@@ -51,7 +51,7 @@ function setup(){
 }
 
 function draw(){
-    background("black");
+    background("maroon");
     Engine.update(engine);
    
     box1.display();
@@ -86,6 +86,9 @@ function draw(){
 function mouseDragged(){
     Matter.Body.setPosition(hero.body,{x:mouseX,y:mouseY})
 }
+
 function mouseReleased(){
     slingshot.fly();
+    
 }
+

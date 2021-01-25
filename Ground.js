@@ -11,7 +11,8 @@ class Ground {
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
-      fill("white");
+      fill("red");
+      stroke("maroon")
       rect(pos.x, pos.y, this.width, this.height);
     }
   };
